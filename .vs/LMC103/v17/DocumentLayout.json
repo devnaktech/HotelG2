@@ -1,0 +1,567 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|HotelG2.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|HotelG2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\models\\loancategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:models\\loancategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\date\\dapperfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:date\\dapperfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\date\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:date\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\migrations\\20250129072300_adddepartmentforiegnkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:migrations\\20250129072300_adddepartmentforiegnkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\migrations\\20250129035925_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:migrations\\20250129035925_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\controllers\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:controllers\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\group\\hotelg2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LMC103.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-10T08:07:23.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:50:48.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:50:52.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DapperFactory .cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Date\\DapperFactory .cs",
+              "RelativeDocumentMoniker": "Date\\DapperFactory .cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Date\\DapperFactory .cs",
+              "RelativeToolTip": "Date\\DapperFactory .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:51:05.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:32:05.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoanCategory.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\LoanCategory.cs",
+              "RelativeDocumentMoniker": "Models\\LoanCategory.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\LoanCategory.cs",
+              "RelativeToolTip": "Models\\LoanCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:51:10.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T12:00:04.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Employeecontroller.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\Employeecontroller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Employeecontroller.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\Employeecontroller.cs",
+              "RelativeToolTip": "Controllers\\Employeecontroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:50:56.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Date\\DataContext.cs",
+              "RelativeDocumentMoniker": "Date\\DataContext.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Date\\DataContext.cs",
+              "RelativeToolTip": "Date\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:56:34.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250129035925_initial.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Migrations\\20250129035925_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250129035925_initial.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Migrations\\20250129035925_initial.cs",
+              "RelativeToolTip": "Migrations\\20250129035925_initial.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T03:59:28.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250129072300_AddDepartmentFOriegnKey.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Migrations\\20250129072300_AddDepartmentFOriegnKey.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250129072300_AddDepartmentFOriegnKey.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Migrations\\20250129072300_AddDepartmentFOriegnKey.cs",
+              "RelativeToolTip": "Migrations\\20250129072300_AddDepartmentFOriegnKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:23:01.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\BaseEntity.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:24:51.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:24:56.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\DataContextModelSnapshot.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\DataContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T04:03:34.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:24:53.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\Customer.cs",
+              "RelativeDocumentMoniker": "Controllers\\Customer.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\Customer.cs",
+              "RelativeToolTip": "Controllers\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:38:14.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:24:55.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:42:18.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T15:42:26.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAACBjwDcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T13:29:55.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Details.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAACBjwDkAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T12:45:29.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Delete.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAACBjwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T12:11:48.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwDsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T08:51:15.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T08:51:26.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T07:56:08.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T08:51:28.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T12:07:03.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAACBjwDAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T15:43:53.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:50:58.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAACBjwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T13:02:11.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\group\\HotelG2\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T15:44:17.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<LMC103.Models.LoanCategory>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success btn-lg">
+        <i class="bi bi-plus-circle"></i> Create New
+    </a>
+</p>
+<table class="table table-striped table-hover table-bordered align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().LoanCategoryID)</th>
+            <th>@Html.DisplayNameFor(model => model.First().LoancategoryCode)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Description)</th>
+            <th>@Html.DisplayNameFor(model => model.First().DesInKhmer)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Code)</th>
+            <th>@Html.DisplayNameFor(model => model.First().CreatedDT)</th>
+            <th>@Html.DisplayNameFor(model => model.First().IsActive)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.LoanCategoryID)</td>
+                <td>@Html.DisplayFor(modelItem => item.LoancategoryCode)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.DesInKhmer)</td>
+                <td>@Html.DisplayFor(modelItem => item.Code)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedDT)</td>
+                <td>@Html.DisplayFor(modelItem => item.IsActive)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { LoanCategoryID = item.LoanCategoryID }, new { @class = "btn btn-primary btn-sm" }) |
+                    @Html.ActionLink("Details", "Details", new { LoanCategoryID = item.LoanCategoryID }, new { @class = "btn btn-info btn-sm" }) |
+                    @Html.ActionLink("Delete", "Delete", new { LoanCategoryID = item.LoanCategoryID }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

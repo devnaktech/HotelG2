@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\loadmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\loadmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\loadmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\loadmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\loadmanagement\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|d:\\3- year\\2-semerter\\1asp_mrminh\\loadmanagement\\models\\loancategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E3DB96-3F73-4AF4-8295-80A9E019E257}|LoadManagement.csproj|solutionrelative:models\\loancategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employeecontroller.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Controllers\\Employeecontroller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Employeecontroller.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Controllers\\Employeecontroller.cs",
+              "RelativeToolTip": "Controllers\\Employeecontroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:49:04.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T15:11:34.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:09:39.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoanCategory.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Models\\LoanCategory.cs",
+              "RelativeDocumentMoniker": "Models\\LoanCategory.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Models\\LoanCategory.cs",
+              "RelativeToolTip": "Models\\LoanCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:09:39.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T15:09:39.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\3- Year\\2-Semerter\\1ASP_MrMinh\\LoadManagement\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:09:39.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
