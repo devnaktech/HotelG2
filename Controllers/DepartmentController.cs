@@ -1,6 +1,7 @@
-﻿using HotelG2.Date;
-using HotelG2.Models;
+﻿using LMC103.Data;
+using LMC103.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LMC103.Controllers
 {
