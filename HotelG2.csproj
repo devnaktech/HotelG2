@@ -19,13 +19,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Customers\" />
-    <Folder Include="Views\Employees\" />
-    <Folder Include="Views\Auth\" />
-    <Folder Include="Views\Reservation\" />
-    <Folder Include="Views\Roomtype\" />
-    <Folder Include="Views\Room\" />
-  </ItemGroup>
-
 </Project>
