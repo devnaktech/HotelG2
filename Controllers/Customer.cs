@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace LMC103.Controllers
+namespace HotelG2.Controllers
 {
     public class Customer : Controller
     {

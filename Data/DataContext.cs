@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using LMC103.Models;
+using HotelG2.Models;
 
-namespace LMC103.Data
+namespace HotelG2.Data
 {
     public sealed class DataContext : DbContext
     {

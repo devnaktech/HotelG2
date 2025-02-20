@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace LMC103.Migrations
+namespace HotelG2.Migrations
 {
     /// <inheritdoc />
     public partial class AddDepartmentFOriegnKey : Migration

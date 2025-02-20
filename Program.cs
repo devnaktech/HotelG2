@@ -1,4 +1,4 @@
-using LMC103.Data;
+using HotelG2.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

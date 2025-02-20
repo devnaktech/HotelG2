@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace LMC103.Migrations
+namespace HotelG2.Migrations
 {
     /// <inheritdoc />
     public partial class initial : Migration

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LMC103.Models
+namespace HotelG2.Models
 {
     public sealed class Employee : BaseEntity
     {

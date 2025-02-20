@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace LMC103.Data
+namespace HotelG2.Data
 {
     public sealed class DapperFactory(IConfiguration config)
     {

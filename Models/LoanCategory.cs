@@ -1,4 +1,4 @@
-﻿namespace LMC103.Models
+﻿namespace HotelG2.Models
 {
     public class LoanCategory
     {

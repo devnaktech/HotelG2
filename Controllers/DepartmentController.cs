@@ -1,8 +1,8 @@
-﻿using HotelG2.Date;
+﻿using HotelG2.Data;
 using HotelG2.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LMC103.Controllers
+namespace HotelG2.Controllers
 {
     public class DepartmentController : Controller
     {

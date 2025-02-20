@@ -1,11 +1,11 @@
 ﻿using Dapper;
-using LMC103.Data;
-using LMC103.Models;
+using HotelG2.Data;
+using HotelG2.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace LMC103.Controllers
+namespace HotelG2.Controllers
 {
     public class CategoryController(DapperFactory database) : Controller
     {
