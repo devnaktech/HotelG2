@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Midterm.Models.Room>
+
+@* @{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+} *@
+
+<h1>Index</h1>
+<div class="d-flex justify-content-between p-3">
+    <h3>Rooms</h3>
+
+    <button asp-action="Create" type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Add Room
+    </button>
+</div>
+
+<div class="card">
+    <div class="card-body p-2 rounded-4">
+        <table class="table rounded-4">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsHidden)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoomType)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IsHidden)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)
+                        </td>
+
+                        <td>
+                            <div class="dropdown rounded-4">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+
+                                <ul class="dropdown-menu rounded-4">
+                                    <li>
+                                        <a asp-action="Details" asp-route-id="@item.RoomId" class="dropdown-item text-secondary">
+                                            <i class="fas fa-info-circle mr-2"></i>
+                                            Details
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Edit" asp-route-id="@item.RoomId" class="dropdown-item text-warning">
+                                            <i class="fas fa-pen mr-2"></i>
+                                            Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Delete" asp-route-id="@item.RoomId" class="dropdown-item text-danger">
+                                            <i class="fas fa-trash mr-2"></i>
+                                            Delete
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title fs-5" id="staticBackdropLabel">
+                    Add Room
+                </h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-0">
+                <partial name="Create" model='new Midterm.Models.Room { RoomName = "", IsHidden = false, RoomTypeId = 4 }' />
+            </div>
+        </div>
+    </div>
+</div>

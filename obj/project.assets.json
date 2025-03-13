@@ -10781,11 +10781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nasPj\\asp.net\\hotel\\midterm\\Midterm.csproj",
+      "projectUniqueName": "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj",
       "projectName": "Midterm",
-      "projectPath": "D:\\nasPj\\asp.net\\hotel\\midterm\\Midterm.csproj",
+      "projectPath": "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj",
       "packagesPath": "C:\\Users\\Journey\\.nuget\\packages\\",
-      "outputPath": "D:\\nasPj\\asp.net\\hotel\\midterm\\obj\\",
+      "outputPath": "D:\\nasPj\\asp.net\\Hotel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
