@@ -1,11 +1,11 @@
-﻿@model IEnumerable<Midterm.Models.Room>
+﻿@* @model IEnumerable<Midterm.Models.Room> *@
 
 @* @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 } *@
 
-<h1>Index</h1>
+@* <h1>Index</h1>
 <div class="d-flex justify-content-between p-3">
     <h3>Rooms</h3>
 
@@ -98,4 +98,570 @@
             </div>
         </div>
     </div>
+</div> *@
+
+
+@* @model IEnumerable<Midterm.Models.Room>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+<div class="d-flex justify-content-between p-3">
+    <h3>Rooms</h3>
+    <button asp-action="Create" type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Add Room
+    </button>
 </div>
+
+<div class="card shadow-sm">
+    <div class="card-body p-2 rounded-4">
+        <table class="table table-elegant rounded-4">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.RoomName)</th>
+                    <th>@Html.DisplayNameFor(model => model.IsHidden)</th>
+                    <th>@Html.DisplayNameFor(model => model.RoomType)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.RoomName)</td>
+                        <td>
+                            <span class="status-indicator @(item.IsHidden ? "hidden" : "visible")">
+                                @Html.DisplayFor(modelItem => item.IsHidden)
+                            </span>
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)</td>
+                        <td>
+                            <div class="dropdown rounded-4">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <ul class="dropdown-menu rounded-4">
+                                    <li>
+                                        <button class="dropdown-item text-secondary show-details" 
+                                                data-bs-toggle="modal" 
+                                                data-bs-target="#detailsModal"
+                                                data-room-id="@item.RoomId">
+                                            <i class="fas fa-info-circle mr-2"></i> Details
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Edit" asp-route-id="@item.RoomId" class="dropdown-item text-warning">
+                                            <i class="fas fa-pen mr-2"></i> Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Delete" asp-route-id="@item.RoomId" class="dropdown-item text-danger">
+                                            <i class="fas fa-trash mr-2"></i> Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Create Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title fs-5" id="staticBackdropLabel">Add Room</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-0">
+                <partial name="Create" model='new Midterm.Models.Room { RoomName = "", IsHidden = false, RoomTypeId = 4 }' />
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Details Modal -->
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content room-card position-relative">
+            <div class="modal-header border-0">
+                <h2 class="room-title mx-auto text-gradient" id="detailsModalLabel"></h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body card-content">
+                <div class="table-responsive">
+                    <table class="table table-elegant">
+                        <tbody id="detailsTableBody">
+                            <!-- Details populated via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer border-0 action-buttons justify-content-center">
+                <button type="button" class="btn btn-outline-elegant" data-bs-dismiss="modal">
+                    <i class="bi bi-x-lg"></i> Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .text-gradient {
+        background: linear-gradient(45deg, #2c3e50, #3498db);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .room-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        position: relative; /* Ensure content stays above overlay */
+        z-index: 1050; /* Match Bootstrap modal z-index */
+    }
+
+    .card-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(52,152,219,0.1), rgba(44,62,80,0.1));
+        opacity: 0.2;
+        pointer-events: none; /* Prevent overlay from blocking clicks */
+    }
+
+    .room-title {
+        font-size: 2.2rem;
+        color: #2c3e50;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .table-elegant th {
+        background: #f8f9fa;
+        color: #2c3e50;
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+        border: none;
+        width: 30%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .table-elegant td {
+        background: rgba(255,255,255,0.9);
+        padding: 1rem 1.5rem;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        vertical-align: middle;
+    }
+
+    .status-indicator {
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        display: inline-block;
+    }
+
+    .status-indicator.hidden { background: #e74c3c; color: white; }
+    .status-indicator.visible { background: #2ecc71; color: white; }
+
+    .highlight { color: #3498db; font-weight: 600; }
+
+    .btn-outline-elegant {
+        border: 2px solid #2c3e50;
+        color: #2c3e50;
+        padding: 0.7rem 1.5rem;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+        position: relative; /* Ensure button is clickable */
+        z-index: 1; /* Above overlay */
+    }
+
+    .btn-outline-elegant:hover {
+        background: #2c3e50;
+        color: white;
+    }
+
+    .table-elegant { border-collapse: separate; border-spacing: 0 10px; }
+
+    .modal-content { position: relative; z-index: 1; } /* Ensure content is above overlay */
+</style>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const detailsButtons = document.querySelectorAll('.show-details');
+            detailsButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const roomId = this.getAttribute('data-room-id');
+                    const rooms = @Html.Raw(Json.Serialize(Model));
+                    const room = rooms.find(r => r.roomId === parseInt(roomId));
+
+                    if (room) {
+                        document.querySelector('#detailsModalLabel').textContent = room.roomName;
+                        const tableBody = document.querySelector('#detailsTableBody');
+                        tableBody.innerHTML = `
+                            <tr><th scope="row">Room Name</th><td>${room.roomName}</td></tr>
+                            <tr><th scope="row">Status</th><td><span class="status-indicator ${room.isHidden ? 'hidden' : 'visible'}">${room.isHidden}</span></td></tr>
+                            <tr><th scope="row">Room Type</th><td class="highlight">${room.roomType.roomTypeName}</td></tr>
+                        `;
+                    }
+                });
+            });
+
+            // Ensure modal is fully interactive
+            const modal = document.getElementById('detailsModal');
+            modal.addEventListener('shown.bs.modal', function () {
+                console.log('Modal shown'); // Debug
+                this.querySelector('.btn-outline-elegant').focus(); // Optional: focus on Close button
+            });
+        });
+    </script>
+} *@
+
+@model IEnumerable<Midterm.Models.Room>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="d-flex justify-content-between p-3">
+    <h3>Rooms</h3>
+    <button asp-action="Create" type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Add Room
+    </button>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body p-2 rounded-4">
+        <table class="table table-elegant rounded-4">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.RoomName)</th>
+                    <th>@Html.DisplayNameFor(model => model.IsHidden)</th>
+                    <th>@Html.DisplayNameFor(model => model.RoomType)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.RoomName)</td>
+                        <td>
+                            <span class="status-indicator @(item.IsHidden ? "hidden" : "visible")">
+                                @Html.DisplayFor(modelItem => item.IsHidden)
+                            </span>
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)</td>
+                        <td>
+                            <div class="dropdown rounded-4">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <ul class="dropdown-menu rounded-4">
+                                    <li>
+                                        <button class="dropdown-item text-secondary show-details" 
+                                                data-bs-toggle="modal" 
+                                                data-bs-target="#detailsModal_@item.RoomId">
+                                            <i class="fas fa-info-circle mr-2"></i> Details
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item text-warning show-edit" 
+                                                data-bs-toggle="modal" 
+                                                data-bs-target="#editModal_@item.RoomId">
+                                            <i class="fas fa-pen mr-2"></i> Edit
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Delete" asp-route-id="@item.RoomId" class="dropdown-item text-danger">
+                                            <i class="fas fa-trash mr-2"></i> Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Create Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title fs-5" id="staticBackdropLabel">Add Room</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-0">
+                <partial name="Create" model='new Midterm.Models.Room { RoomName = "", IsHidden = false, RoomTypeId = 4 }' />
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Details Modals (One per Room) -->
+@foreach (var item in Model)
+{
+    <div class="modal fade" id="detailsModal_@item.RoomId" tabindex="-1" aria-labelledby="detailsModalLabel_@item.RoomId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content room-card position-relative">
+                <div class="modal-header border-0">
+                    <h2 class="room-title mx-auto text-gradient" id="detailsModalLabel_@item.RoomId">@item.RoomName</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body card-content">
+                    <div class="table-responsive">
+                        <table class="table table-elegant">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Room Name</th>
+                                    <td>@item.RoomName</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Status</th>
+                                    <td>
+                                        <span class="status-indicator @(item.IsHidden ? "hidden" : "visible")">
+                                            @item.IsHidden
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Room Type</th>
+                                    <td class="highlight">@item.RoomType.RoomTypeName</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 action-buttons justify-content-center">
+                    <a asp-action="Edit" asp-route-id="@item.RoomId" class="btn btn-gradient me-3">
+                        <i class="fas fa-pen"></i> Edit Room
+                    </a>
+                    <button type="button" class="btn btn-outline-elegant" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg"></i> Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Edit Modals (One per Room) -->
+@foreach (var item in Model)
+{
+    <div class="modal fade" id="editModal_@item.RoomId" tabindex="-1" aria-labelledby="editModalLabel_@item.RoomId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content room-card position-relative">
+                <div class="card-overlay"></div>
+                <div class="modal-header border-0">
+                    <h2 class="room-title mx-auto text-gradient" id="editModalLabel_@item.RoomId">Edit Room: @item.RoomName</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body card-content">
+                    <form asp-action="Edit" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <input type="hidden" name="RoomId" value="@item.RoomId" />
+                        <div class="form-group mb-4">
+                            <label for="RoomName_@item.RoomId" class="form-label text-muted">Room Name</label>
+                            <input id="RoomName_@item.RoomId" name="RoomName" class="form-control elegant-input" value="@item.RoomName" />
+                            <span class="text-danger" data-valmsg-for="RoomName"></span>
+                        </div>
+                        <div class="form-group form-check mb-4">
+                            <label class="form-check-label text-muted">
+                                <input class="form-check-input" type="checkbox" name="IsHidden" @(item.IsHidden ? "checked" : "") value="true" /> 
+                                Is Hidden
+                                <input type="hidden" name="IsHidden" value="false" />
+                            </label>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="RoomTypeId_@item.RoomId" class="form-label text-muted">Room Type</label>
+                            <select id="RoomTypeId_@item.RoomId" name="RoomTypeId" class="form-select elegant-input" asp-items="ViewBag.RoomTypeId">
+                                <option value="@item.RoomTypeId" selected>@item.RoomType?.RoomTypeName</option>
+                            </select>
+                            <span class="text-danger" data-valmsg-for="RoomTypeId"></span>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="submit" value="Save" class="btn btn-gradient w-100 py-2" />
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-outline-elegant w-100 py-2" data-bs-dismiss="modal">
+                                    <i class="bi bi-x-lg"></i> Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    .text-gradient {
+        background: linear-gradient(45deg, #2c3e50, #3498db);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .room-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        position: relative;
+        z-index: 1050;
+    }
+
+    .card-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(52,152,219,0.1), rgba(44,62,80,0.1));
+        opacity: 0.2;
+        pointer-events: none;
+    }
+
+    .room-title {
+        font-size: 2.2rem;
+        color: #2c3e50;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .table-elegant th {
+        background: #f8f9fa;
+        color: #2c3e50;
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+        border: none;
+        width: 30%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .table-elegant td {
+        background: rgba(255,255,255,0.9);
+        padding: 1rem 1.5rem;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        vertical-align: middle;
+    }
+
+    .status-indicator {
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        display: inline-block;
+    }
+
+    .status-indicator.hidden { background: #e74c3c; color: white; }
+    .status-indicator.visible { background: #2ecc71; color: white; }
+
+    .highlight { color: #3498db; font-weight: 600; }
+
+    .btn-outline-elegant {
+        border: 2px solid #2c3e50;
+        color: #2c3e50;
+        padding: 0.7rem 1.5rem;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 1;
+    }
+
+    .btn-outline-elegant:hover {
+        background: #2c3e50;
+        color: white;
+    }
+
+    .btn-gradient {
+        background: linear-gradient(45deg, #3498db, #2c3e80);
+        color: white;
+        border: none;
+        padding: 0.7rem 1.5rem;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 1;
+    }
+
+    .btn-gradient:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(52,152,219,0.4);
+        color: white;
+    }
+
+    .elegant-input {
+        border-radius: 10px;
+        border: 1px solid #ced4da;
+        padding: 0.75rem 1rem;
+        background: rgba(255, 255, 255, 0.95);
+        transition: all 0.3s ease;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .elegant-input:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.25);
+        background: white;
+    }
+
+    .form-label {
+        font-size: 0.95rem;
+        color: #2c3e50;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-check-input {
+        margin-top: 0.2rem;
+    }
+
+    .form-check-label {
+        color: #2c3e50;
+        font-weight: 500;
+    }
+
+    .table-elegant { border-collapse: separate; border-spacing: 0 10px; }
+
+    .modal-content { position: relative; z-index: 1; }
+</style>
+
+@section Scripts {
+    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                modal.addEventListener('shown.bs.modal', function () {
+                    console.log('Modal shown: ' + this.id);
+                    this.querySelector('.btn-outline-elegant')?.focus();
+                });
+            });
+        });
+    </script>
+}
