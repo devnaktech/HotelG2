@@ -71,16 +71,16 @@
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\roomtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\roomtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rooms\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rooms\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -303,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomTypes\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\RoomTypes\\Index.cshtml",
@@ -315,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\Index.cshtml",
@@ -327,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\Create.cshtml",
