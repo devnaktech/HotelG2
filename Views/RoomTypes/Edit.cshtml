@@ -1,0 +1,192 @@
+﻿@* @model Midterm.Models.RoomType
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>RoomType</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="RoomTypeId" />
+            <div class="form-group">
+                <label asp-for="RoomTypeName" class="control-label"></label>
+                <input asp-for="RoomTypeName" class="form-control" />
+                <span asp-validation-for="RoomTypeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+ *@
+
+ @model Midterm.Models.RoomType
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid py-5">
+    <!-- Header -->
+    <div class="text-center mb-4">
+        <h1 class="display-5 fw-bold text-gradient">Edit Room Type</h1>
+        <hr class="subtitle-line mx-auto" />
+    </div>
+
+    <!-- Main Card -->
+    <div class="room-card p-4 mx-auto" style="max-width: 500px;">
+        <div class="card-body p-4 rounded-4">
+            <h4 class="mb-3 text-gradient">Room Type Information</h4>
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger text-center mb-3"></div>
+                <input type="hidden" asp-for="RoomTypeId" />
+
+                <div class="mb-3">
+                    <label asp-for="RoomTypeName" class="form-label label-style"></label>
+                    <input asp-for="RoomTypeName" class="form-control input-style" placeholder="Enter room type name" />
+                    <span asp-validation-for="RoomTypeName" class="text-danger"></span>
+                </div>
+
+                <!-- Actions -->
+                <div class="d-flex justify-content-center gap-3 mt-4">
+                    <input type="submit" value="Save" class="btn btn-create" />
+                    <a asp-action="Index" class="btn btn-outline-back">
+                        <i class="fas fa-arrow-left me-2"></i> Back to List
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Gradient Text */
+    .text-gradient {
+        background: linear-gradient(90deg, #2c3e50, #3498db);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    /* Subtitle Line */
+    .subtitle-line {
+        width: 50px;
+        height: 2px;
+        background: #3498db;
+        border: none;
+        margin-top: 5px;
+    }
+
+    /* Room Card Styling */
+    .room-card {
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        padding: 1rem;
+    }
+
+    /* Form Input Styling */
+    .input-style {
+        border-radius: 0.5rem;
+        border: 1px solid #e5e7eb;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+        background-color: #f9fafb;
+        width: 100%;
+    }
+
+        .input-style:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.1);
+            outline: none;
+        }
+
+    /* Label Styling */
+    .label-style {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #2c3e50;
+        margin-bottom: 0.25rem;
+    }
+
+    /* Button Styling */
+    .btn-create {
+        background: #28a745;
+        color: white;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+    }
+
+        .btn-create:hover {
+            background: #218838;
+            box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+            transform: translateY(-1px);
+        }
+
+    .btn-outline-back {
+        border: 2px solid #2c3e50;
+        color: #2c3e50;
+        background: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+    }
+
+        .btn-outline-back:hover {
+            background: #2c3e50;
+            color: white;
+            text-decoration: none;
+        }
+
+    /* Custom Spacing and Layout */
+    .py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .mb-3 {
+        margin-bottom: 1rem !important;
+    }
+
+    .mb-4 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .mt-4 {
+        margin-top: 1.5rem !important;
+    }
+
+    .gap-3 {
+        gap: 1rem;
+    }
+
+    .mx-auto {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-danger {
+        color: #ef4444 !important;
+    }
+</style>

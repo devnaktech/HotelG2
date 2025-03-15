@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Midterm.Data;
 using Midterm.Models;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Midterm.Controllers
 {
@@ -16,79 +19,139 @@ namespace Midterm.Controllers
             _context = context;
         }
 
+        // GET: RoomType
         public async Task<IActionResult> Index()
         {
-            var roomTypes = await _context.RoomTypes.ToListAsync();
-            return View(roomTypes);
+            return View(await _context.RoomTypes.ToListAsync());
         }
 
-        [HttpGet]
+        // GET: RoomType/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var roomType = await _context.RoomTypes
+                .FirstOrDefaultAsync(m => m.RoomTypeId == id);
+            if (roomType == null)
+            {
+                return NotFound();
+            }
+
+            return View(roomType);
+        }
+
+        // GET: RoomType/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: RoomType/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(RoomType roomType)
+        public async Task<IActionResult> Create([Bind("RoomTypeId,RoomTypeName")] RoomType roomType)
         {
-            if (!ModelState.IsValid)
-                return View(roomType);
-
-            _context.RoomTypes.Add(roomType);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            if (ModelState.IsValid)
+            {
+                _context.Add(roomType);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(roomType);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Edit(int id)
+        // GET: RoomType/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
             var roomType = await _context.RoomTypes.FindAsync(id);
             if (roomType == null)
+            {
                 return NotFound();
+            }
+            return View(roomType);
+        }
+
+        // POST: RoomType/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("RoomTypeId,RoomTypeName")] RoomType roomType)
+        {
+            if (id != roomType.RoomTypeId)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(roomType);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!RoomTypeExists(roomType.RoomTypeId))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(roomType);
+        }
+
+        // GET: RoomType/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var roomType = await _context.RoomTypes
+                .FirstOrDefaultAsync(m => m.RoomTypeId == id);
+            if (roomType == null)
+            {
+                return NotFound();
+            }
 
             return View(roomType);
         }
 
-        [HttpPost]
+        // POST: RoomType/Delete/5
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(RoomType roomType)
-        {
-            if (!ModelState.IsValid)
-                return View(roomType);
-
-            _context.RoomTypes.Update(roomType);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var roomType = await _context.RoomTypes.FindAsync(id);
-            if (roomType == null)
-                return NotFound();
-
-            return View(roomType);
-        }
-
-        public async Task<IActionResult> Delete(int id)
-        {
-            var roomType = await _context.RoomTypes.FindAsync(id);
-            if (roomType == null)
-                return NotFound();
-
-            try
+            if (roomType != null)
             {
                 _context.RoomTypes.Remove(roomType);
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                ModelState.AddModelError("", "Cannot delete Room Type because it is linked to rooms.");
             }
 
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        private bool RoomTypeExists(int id)
+        {
+            return _context.RoomTypes.Any(e => e.RoomTypeId == id);
         }
     }
 }

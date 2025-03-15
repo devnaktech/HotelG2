@@ -1,0 +1,863 @@
+﻿@* @model IEnumerable<Midterm.Models.RoomType>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RoomTypeName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomTypeName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.RoomTypeId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.RoomTypeId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RoomTypeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+ *@
+
+
+ @* @model IEnumerable<Midterm.Models.RoomType>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Container for the entire page */
+    .index-page-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+        padding: 2rem;
+    }
+
+    /* Card for the table */
+    .form-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        width: 100%;
+        padding: 2.5rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .form-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Page title */
+    .page-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #1a3c34;
+        text-align: center;
+        margin-bottom: 2rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* Create button */
+    .btn-create {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+        .btn-create:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+    /* Table styling */
+    .table-custom {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .table-custom thead {
+            background-color: #34495e;
+            color: white;
+        }
+
+        .table-custom th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .table-custom td {
+            padding: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .table-custom tr:hover {
+            background-color: #f5f6fa;
+            transition: background-color 0.2s ease;
+        }
+
+    /* Dropdown menu */
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-toggle {
+        background: none;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: #34495e;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        min-width: 150px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 0;
+        z-index: 1000;
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-item {
+        padding: 0.5rem 1rem;
+        color: #34495e;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-item:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown-item.edit {
+            color: #f39c12;
+        }
+
+        .dropdown-item.details {
+            color: #3498db;
+        }
+
+        .dropdown-item.delete {
+            color: #dc3545;
+        }
+</style>
+
+<div class="index-page-container">
+    <div class="form-card">
+        <h2 class="page-title">Room Types</h2>
+        <div class="d-flex justify-content-end mb-3">
+            <a asp-action="Create" class="btn-create">Create New</a>
+        </div>
+        <table class="table-custom">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.RoomTypeName)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.RoomTypeName)</td>
+                        <td>
+                            <div class="dropdown">
+                                <button class="dropdown-toggle" type="button">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a asp-action="Edit" asp-route-id="@item.RoomTypeId" class="dropdown-item edit">Edit</a></li>
+                                    <li><a asp-action="Details" asp-route-id="@item.RoomTypeId" class="dropdown-item details">Details</a></li>
+                                    <li><a asp-action="Delete" asp-route-id="@item.RoomTypeId" class="dropdown-item delete">Delete</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> *@
+
+
+@* @model IEnumerable<Midterm.Models.RoomType>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Container for the entire page */
+    .index-page-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+        padding: 2rem;
+    }
+
+    /* Card for the table */
+    .form-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        padding: 2.5rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .form-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Page title */
+    .page-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #1a3c34;
+        text-align: center;
+        margin-bottom: 2rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* Create button */
+    .btn-create {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+        .btn-create:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+    /* Table styling */
+    .table-custom {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .table-custom thead {
+            background-color: #34495e;
+            color: white;
+        }
+
+        .table-custom th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .table-custom td {
+            padding: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .table-custom tr:hover {
+            background-color: #f5f6fa;
+            transition: background-color 0.2s ease;
+        }
+
+    /* Dropdown menu */
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-toggle {
+        background: none;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: #34495e;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        min-width: 150px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 0;
+        z-index: 1000;
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-item {
+        padding: 0.5rem 1rem;
+        color: #34495e;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-item:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown-item.edit {
+            color: #f39c12;
+        }
+
+        .dropdown-item.details {
+            color: #3498db;
+        }
+
+        .dropdown-item.delete {
+            color: #dc3545;
+        }
+</style>
+
+<div class="index-page-container">
+    <div class="form-card">
+        <h2 class="page-title">Room Types</h2>
+        <div class="d-flex justify-content-end mb-3">
+            <a asp-action="Create" class="btn-create">Create New</a>
+        </div>
+        <table class="table-custom">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>@Html.DisplayNameFor(model => model.RoomTypeName)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int counter = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@counter</td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomTypeName)</td>
+                        <td>
+                            <div class="dropdown rounded-4">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <ul class="dropdown-menu rounded-4">
+                                    <li>
+                                        <a asp-action="Edit" asp-route-id="@item.RoomTypeId" class="dropdown-item text-warning">
+                                            <i class="fas fa-pen mr-2"></i>Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Details" asp-route-id="@item.RoomTypeId" class="dropdown-item text-secondary">
+                                            <i class="fas fa-info-circle mr-2"></i>Details
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Delete" asp-route-id="@item.RoomTypeId" class="dropdown-item text-danger">
+                                            <i class="fas fa-trash mr-2"></i>Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    counter++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> *@
+
+
+
+
+
+@* @model IEnumerable<Midterm.Models.RoomType>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Container for the entire page */
+    .index-page-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+        padding: 2rem;
+    }
+
+    /* Card for the table */
+    .form-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        padding: 2.5rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .form-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Page title */
+    .page-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #1a3c34;
+        text-align: center;
+        margin-bottom: 2rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* Create button */
+    .btn-create {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+        .btn-create:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+    /* Table styling */
+    .table-custom {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+        .table-custom thead {
+            background-color: #34495e;
+            color: white;
+        }
+
+        .table-custom th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .table-custom td {
+            padding: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .table-custom tr:hover {
+            background-color: #f5f6fa;
+            transition: background-color 0.2s ease;
+        }
+
+    /* Dropdown menu */
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-toggle {
+        background: none;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: #34495e;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        min-width: 150px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 0;
+        z-index: 1000;
+    }
+
+    .dropdown-item {
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-item:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown-item.edit {
+            color: #f39c12;
+        }
+
+        .dropdown-item.details {
+            color: #3498db;
+        }
+
+        .dropdown-item.delete {
+            color: #dc3545;
+        }
+</style>
+
+<div class="index-page-container">
+    <div class="form-card">
+        <h2 class="page-title">Room Types</h2>
+        <div class="d-flex justify-content-end mb-3">
+            <a asp-action="Create" class="btn-create">Create New</a>
+        </div>
+        <table class="table-custom">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>@Html.DisplayNameFor(model => model.RoomTypeName)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int counter = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@counter</td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomTypeName)</td>
+                        <td>
+                            <div class="dropdown rounded-4">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <ul class="dropdown-menu rounded-4">
+                                    <li>
+                                        <a asp-action="Edit" asp-route-id="@item.RoomTypeId" class="dropdown-item text-warning">
+                                            <i class="fas fa-pen mr-2"></i>Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Details" asp-route-id="@item.RoomTypeId" class="dropdown-item text-secondary">
+                                            <i class="fas fa-info-circle mr-2"></i>Details
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Delete" asp-route-id="@item.RoomTypeId" class="dropdown-item text-danger">
+                                            <i class="fas fa-trash mr-2"></i>Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    counter++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> *@
+
+
+
+
+
+@model IEnumerable<Midterm.Models.RoomType>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .content-wrapper .content {
+        padding: 0;
+    }
+    /* Container for the entire page */
+    .index-page-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background: linear-gradient(135deg, #f0f4f8 0%, #d9e6f2 100%); /* Updated gradient */ */
+        padding: 0.5rem;
+        align-items: flex-start;
+    }
+
+    /* Card for the table */
+    .form-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        width: 100%; /* Full width */
+        padding: 2.5rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .form-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Page title */
+    .page-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #1a3c34;
+        text-align: center;
+        margin-bottom: 2rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* Create button */
+    .btn-create {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+        .btn-create:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+    /* Table styling */
+    .table-custom {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .table-custom thead {
+            background-color: #34495e;
+            color: white;
+            border-radius: 8px 8px 0 0; /* Slight radius on the header */
+        }
+
+        .table-custom th {
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .table-custom td {
+            padding: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .table-custom tr:hover {
+            background-color: #f5f6fa;
+            transition: background-color 0.2s ease;
+        }
+
+    /* Dropdown menu */
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-toggle {
+        background: none;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: #34495e;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        min-width: 150px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 0;
+        z-index: 1000;
+    }
+
+    .dropdown-item {
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-item:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown-item.edit {
+            color: #f39c12;
+        }
+
+        .dropdown-item.details {
+            color: #3498db;
+        }
+
+        .dropdown-item.delete {
+            color: #dc3545;
+        }
+
+/*     .table-custom thead .tr-hove:hover{ */
+        
+/* background:none; */
+/*     } */
+
+    /* .table-custom.yyy thead.ttt tr.tr-hover:hover{
+        background-color: #34495e !important;
+    }
+*/
+    /* transitions style:hover{ */
+    /*     background-color: black!important; */
+    /* } */
+</style> 
+<div class="d-flex justify-content-between p-3">
+    <h3>Room Type</h3>
+    <a asp-action="Create" class="btn btn-lg btn-primary">Create New</a>
+</div>
+@* <h2 class="page-title">Room Types</h2> *@
+@* <div class="d-flex justify-content-end mb-3"> *@
+@*     <a asp-action="Create" class="btn-create">Create New</a> *@
+@* </div> *@
+<div class="index-page-container">
+    <div class="form-card">
+       
+        <table class="table-custom">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>@* @Html.DisplayNameFor(model => model.RoomTypeName) *@Room Type</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int counter = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@counter</td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomTypeName)</td>
+                        <td>
+                            <div class="dropdown rounded-4">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <ul class="dropdown-menu rounded-4">
+                                    <li>
+                                        <a asp-action="Edit" asp-route-id="@item.RoomTypeId" class="dropdown-item text-warning">
+                                            <i class="fas fa-pen mr-2"></i>Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Details" asp-route-id="@item.RoomTypeId" class="dropdown-item text-secondary">
+                                            <i class="fas fa-info-circle mr-2"></i>Details
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Delete" asp-route-id="@item.RoomTypeId" class="dropdown-item text-danger">
+                                            <i class="fas fa-trash mr-2"></i>Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    counter++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

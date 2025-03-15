@@ -1,0 +1,116 @@
+﻿@* @model IEnumerable<Midterm.Models.Room>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Room</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RoomName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsHidden)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RoomType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsHidden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.RoomId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.RoomId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RoomId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> *@
+
+
+@model IEnumerable<Midterm.Models.Room>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="d-flex justify-content-between p-3">
+    <h3>Room</h3>
+    <a asp-action="Create" class="btn btn-lg btn-primary">Create New</a>
+</div>
+
+<div class="card">
+    <div class="card-body p-2 rounded-4">
+        <table class="table rounded-4">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>@Html.DisplayNameFor(model => model.RoomName)</th>
+                    <th>@Html.DisplayNameFor(model => model.IsHidden)</th>
+                    <th>@Html.DisplayNameFor(model => model.RoomType)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int counter = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@counter</td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.IsHidden)</td>
+                        <td>@Html.DisplayFor(modelItem => item.RoomType.RoomTypeName)</td>
+                        <td class="">
+                            <div class="dropdown rounded-4">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                                <ul class="dropdown-menu rounded-4">
+                                    <li>
+                                        <a class="dropdown-item text-secondary" asp-action="Details" asp-route-id="@item.RoomId">
+                                            <i class="fas fa-info-circle mr-2"></i>Details
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-warning" asp-action="Edit" asp-route-id="@item.RoomId">
+                                            <i class="fas fa-pen mr-2"></i>Edit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-danger" asp-action="Delete" asp-route-id="@item.RoomId">
+                                            <i class="fas fa-trash mr-2"></i>Delete
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    counter++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
