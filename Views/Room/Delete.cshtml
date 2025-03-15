@@ -1,49 +1,4 @@
-﻿@* @model Midterm.Models.Room
-
-@{
-    ViewData["Title"] = "Delete";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
-<h1>Delete</h1>
-
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Room</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RoomName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RoomName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IsHidden)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IsHidden)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RoomType)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RoomType.RoomTypeName)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="RoomId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
-</div>
- *@
-
-
-
-
-
+﻿
 @model Midterm.Models.Room
 
 @{
@@ -51,15 +6,41 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
+<div class="delete-page-container">
+    <div class="form-card">
+        <h2 class="form-title">Delete Room</h2>
+        <p class="confirmation-message">Are you sure you want to delete this room?</p>
+        <div class="details-list">
+            <dl>
+                <dt>@Html.DisplayNameFor(model => model.RoomName)</dt>
+                <dd>@Html.DisplayFor(model => model.RoomName)</dd>
+                <dt>@Html.DisplayNameFor(model => model.IsHidden)</dt>
+                <dd>@Html.DisplayFor(model => model.IsHidden)</dd>
+                <dt>@Html.DisplayNameFor(model => model.RoomType)</dt>
+                <dd>@Html.DisplayFor(model => model.RoomType.RoomTypeName)</dd>
+            </dl>
+        </div>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="RoomId" />
+            <div class="button-container">
+                <input type="submit" value="Delete" class="btn-delete" />
+                <a asp-action="Index" class="btn-cancel">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
 <style>
     /* Container for the entire page */
     .delete-page-container {
-        min-height: 100vh;
+        /*min-height: 100vh;*/
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-        padding: 2rem;
+        /*background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);*/
+        padding: 3rem;
     }
 
     /* Card for the form */
@@ -158,27 +139,3 @@
             transform: translateY(-3px);
         }
 </style>
-
-<div class="delete-page-container">
-    <div class="form-card">
-        <h2 class="form-title">Delete Room</h2>
-        <p class="confirmation-message">Are you sure you want to delete this room?</p>
-        <div class="details-list">
-            <dl>
-                <dt>@Html.DisplayNameFor(model => model.RoomName)</dt>
-                <dd>@Html.DisplayFor(model => model.RoomName)</dd>
-                <dt>@Html.DisplayNameFor(model => model.IsHidden)</dt>
-                <dd>@Html.DisplayFor(model => model.IsHidden)</dd>
-                <dt>@Html.DisplayNameFor(model => model.RoomType)</dt>
-                <dd>@Html.DisplayFor(model => model.RoomType.RoomTypeName)</dd>
-            </dl>
-        </div>
-        <form asp-action="Delete">
-            <input type="hidden" asp-for="RoomId" />
-            <div class="button-container">
-                <input type="submit" value="Delete" class="btn-delete" />
-                <a asp-action="Index" class="btn-cancel">Cancel</a>
-            </div>
-        </form>
-    </div>
-</div>
