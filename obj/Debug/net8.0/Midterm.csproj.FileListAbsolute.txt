@@ -283,7 +283,6 @@ D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\staticwebassets\msbuild.build.Midterm.pr
 D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Midterm.props
 D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Midterm.props
 D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\staticwebassets.pack.json
-D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\Midterm.csproj.Up2Date
 D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\Midterm.dll
 D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\refint\Midterm.dll
