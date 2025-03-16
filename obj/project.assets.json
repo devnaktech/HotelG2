@@ -10384,11 +10384,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\Midterm.csproj",
+      "projectUniqueName": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Midterm.csproj",
       "projectName": "Midterm",
-      "projectPath": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\Midterm.csproj",
+      "projectPath": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Midterm.csproj",
       "packagesPath": "C:\\Users\\Reathey\\.nuget\\packages\\",
-      "outputPath": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\obj\\",
+      "outputPath": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

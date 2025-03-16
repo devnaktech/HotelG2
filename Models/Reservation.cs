@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -18,6 +17,12 @@ namespace Midterm.Models
 
         [ForeignKey("CustomerId")]
         public Customer? Customer { get; set; }
+
+        [Required]
+        public int RoomId { get; set; }  // Directly linking Room
+
+        [ForeignKey("RoomId")]
+        public Room? Room { get; set; }
 
         [Required]
         public DateTime CheckInDate { get; set; }
@@ -40,8 +45,5 @@ namespace Midterm.Models
         public DateTime CheckOutDate { get; set; }
 
         public bool IsCheckOut { get; set; } = false;
-
-        // Navigation property for related ReservationDetails
-        public ICollection<ReservationDetail>? ReservationDetails { get; set; }
     }
 }

@@ -1,93 +1,104 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\nasPj\\asp.net\\Hotel\\",
+  "WorkspaceRootPath": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\midterm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:midterm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Migrations\\20250316125632_AddReservationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250316125632_AddReservationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\roomtype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\roomtype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\employee\\_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\employee\\_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\employee\\_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\roomtype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\roomtype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\roomtypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\roomtypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\roomtypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:controllers\\roomtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\naspj\\asp.net\\hotel\\views\\roomtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|d:\\2_bbusr\\year-3 bbu university\\hotel\\hotel\\views\\roomtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59CD657A-7460-4425-986A-E76C7D2A749F}|Midterm.csproj|solutionrelative:views\\roomtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rooms\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Rooms\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -101,55 +112,97 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAANAVAAAAAAAAAAArwN8VAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-15T17:28:05.267Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T12:57:23.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Midterm.csproj",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj",
-              "RelativeDocumentMoniker": "Midterm.csproj",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj",
-              "RelativeToolTip": "Midterm.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-15T17:25:49.141Z",
+              "Title": "20250316125632_AddReservationModel.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Migrations\\20250316125632_AddReservationModel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250316125632_AddReservationModel.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Migrations\\20250316125632_AddReservationModel.cs",
+              "RelativeToolTip": "Migrations\\20250316125632_AddReservationModel.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:56:33.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Create.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Employee\\_Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\_Create.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Employee\\_Create.cshtml",
-              "RelativeToolTip": "Views\\Employee\\_Create.cshtml",
+              "DocumentIndex": 2,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Controllers\\ReservationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T16:21:38.851Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:55:34.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:53:54.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:53:27.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Create.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Employee\\_Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\_Create.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Employee\\_Create.cshtml",
+              "RelativeToolTip": "Views\\Employee\\_Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T16:21:38.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "RoomsController.cs",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomsController.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoomsController.cs",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomsController.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomsController.cs",
               "RelativeToolTip": "Controllers\\RoomsController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,11 +210,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomType\\Create.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomType\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\RoomType\\Create.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomType\\Create.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomType\\Create.cshtml",
               "RelativeToolTip": "Views\\RoomType\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -169,11 +222,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomType\\Index.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomType\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\RoomType\\Index.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomType\\Index.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomType\\Index.cshtml",
               "RelativeToolTip": "Views\\RoomType\\Index.cshtml",
               "ViewState": "AgIAABkDAAAAAAAAAAAAAB8DAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -181,11 +234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "RoomTypesController.cs",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomTypesController.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomTypesController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoomTypesController.cs",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomTypesController.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomTypesController.cs",
               "RelativeToolTip": "Controllers\\RoomTypesController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAmwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,11 +246,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Create.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Room\\Create.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Create.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Create.cshtml",
               "RelativeToolTip": "Views\\Room\\Create.cshtml",
               "ViewState": "AgIAAIkBAAAAAAAAAAA0wKMBAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -205,11 +258,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Employee\\Index.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "Views\\Employee\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -217,11 +270,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Index.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Room\\Index.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Index.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Index.cshtml",
               "RelativeToolTip": "Views\\Room\\Index.cshtml",
               "ViewState": "AgIAACwAAAAAAAAAAAA0wDUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -229,11 +282,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Edit.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Room\\Edit.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Edit.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Edit.cshtml",
               "RelativeToolTip": "Views\\Room\\Edit.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAUwDYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -241,11 +294,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomTypes\\Create.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomTypes\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\RoomTypes\\Create.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomTypes\\Create.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomTypes\\Create.cshtml",
               "RelativeToolTip": "Views\\RoomTypes\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -253,11 +306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "RoomTypeController.cs",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomTypeController.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomTypeController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoomTypeController.cs",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomTypeController.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomTypeController.cs",
               "RelativeToolTip": "Controllers\\RoomTypeController.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAzwEAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -265,11 +318,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "_Sidebar.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -277,11 +330,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -289,11 +342,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "RoomController.cs",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomController.cs",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoomController.cs",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Controllers\\RoomController.cs",
               "RelativeToolTip": "Controllers\\RoomController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -301,11 +354,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Delete.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Room\\Delete.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Room\\Delete.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Room\\Delete.cshtml",
               "RelativeToolTip": "Views\\Room\\Delete.cshtml",
               "ViewState": "AgIAAJwAAAAAAAAAAAAcwLcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -313,11 +366,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "_Header.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Header.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Header.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Header.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Header.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -325,11 +378,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "_Footer.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Footer.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Footer.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\Shared\\_Footer.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -337,11 +390,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomTypes\\Index.cshtml",
+              "DocumentMoniker": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomTypes\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\RoomTypes\\Index.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\RoomTypes\\Index.cshtml",
+              "ToolTip": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\Hotel\\Views\\RoomTypes\\Index.cshtml",
               "RelativeToolTip": "Views\\RoomTypes\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -349,24 +402,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml",
               "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml",
-              "RelativeToolTip": "Views\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-14T07:26:34.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Rooms\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml",
               "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml",
-              "RelativeToolTip": "Views\\Rooms\\Create.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\nasPj\\asp.net\\Hotel\\Views\\Rooms\\Create.cshtml",
               "ViewState": "AgIAAJEAAAAAAAAAAAAcwJ0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-14T07:26:06.208Z"

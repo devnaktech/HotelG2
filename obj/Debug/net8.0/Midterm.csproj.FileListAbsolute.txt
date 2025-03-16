@@ -581,3 +581,4 @@ D:\2_BBUSR\Year-3 BBU University\Hotel\hotel\obj\Debug\net8.0\refint\Midterm.dll
 D:\2_BBUSR\Year-3 BBU University\Hotel\hotel\obj\Debug\net8.0\Midterm.pdb
 D:\2_BBUSR\Year-3 BBU University\Hotel\hotel\obj\Debug\net8.0\Midterm.genruntimeconfig.cache
 D:\2_BBUSR\Year-3 BBU University\Hotel\hotel\obj\Debug\net8.0\ref\Midterm.dll
+D:\2_BBUSR\Year-3 BBU University\Hotel\Hotel\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
