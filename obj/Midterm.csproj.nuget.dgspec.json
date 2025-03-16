@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj": {}
+    "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\Midterm.csproj": {}
   },
   "projects": {
-    "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj": {
+    "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\Midterm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj",
+        "projectUniqueName": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\Midterm.csproj",
         "projectName": "Midterm",
-        "projectPath": "D:\\nasPj\\asp.net\\Hotel\\Midterm.csproj",
-        "packagesPath": "C:\\Users\\Journey\\.nuget\\packages\\",
-        "outputPath": "D:\\nasPj\\asp.net\\Hotel\\obj\\",
+        "projectPath": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\Midterm.csproj",
+        "packagesPath": "C:\\Users\\Reathey\\.nuget\\packages\\",
+        "outputPath": "D:\\2_BBUSR\\Year-3 BBU University\\Hotel\\hotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Journey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Reathey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -95,19 +96,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.200, 9.0.200]"
+              "version": "[8.0.11, 8.0.11]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.11, 8.0.11]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.11, 8.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -118,7 +115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
