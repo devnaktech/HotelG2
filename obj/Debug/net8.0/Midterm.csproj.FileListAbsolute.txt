@@ -299,6 +299,5 @@ D:\nasPj\asp.net\Hotel\bin\Debug\net8.0\Syncfusion.Blazor.dll
 D:\nasPj\asp.net\Hotel\bin\Debug\net8.0\Syncfusion.ExcelExport.Net.dll
 D:\nasPj\asp.net\Hotel\bin\Debug\net8.0\Syncfusion.Licensing.dll
 D:\nasPj\asp.net\Hotel\bin\Debug\net8.0\Syncfusion.PdfExport.Net.dll
-D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\nasPj\asp.net\Hotel\bin\Debug\net8.0\Syncfusion.EJ2.dll
 D:\nasPj\asp.net\Hotel\obj\Debug\net8.0\Midterm.MvcApplicationPartsAssemblyInfo.cs
