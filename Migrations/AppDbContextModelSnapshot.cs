@@ -17,7 +17,7 @@ namespace Midterm.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.0")
+                .HasAnnotation("ProductVersion", "9.0.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -30,48 +30,68 @@ namespace Midterm.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerId"));
 
-                    b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<DateTime>("Created")
+                    b.Property<string>("CustomerCode")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("CustomerTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DOB")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("IsHidden")
+                        .HasColumnType("bit");
 
-                    b.Property<decimal?>("Expense")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("FirstName")
+                    b.Property<string>("PassportNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Gender")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("IdCard")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal?>("Income")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswortNo")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Phone")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
-                    b.Property<DateTime?>("Updated")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("Sex")
+                        .IsRequired()
+                        .HasMaxLength(2)
+                        .HasColumnType("nvarchar(2)");
 
                     b.HasKey("CustomerId");
 
+                    b.HasIndex("CustomerTypeId");
+
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("Midterm.Models.CustomerType", b =>
+                {
+                    b.Property<int>("CustomerTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerTypeId"));
+
+                    b.Property<string>("CustomerTypeName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("CustomerTypeId");
+
+                    b.ToTable("CustomerTypes");
                 });
 
             modelBuilder.Entity("Midterm.Models.Employee", b =>
@@ -124,6 +144,57 @@ namespace Midterm.Migrations
                     b.HasKey("EmployeeId");
 
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("Midterm.Models.Reservation", b =>
+                {
+                    b.Property<int>("ReservationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReservationId"));
+
+                    b.Property<DateTime>("CheckInDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("CheckOutDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsCheckIn")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsCheckOut")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsHidden")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Memo")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("NumberOfAdults")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NumberOfChildren")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NumberOfDays")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReservationId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("RoomId");
+
+                    b.ToTable("Reservations");
                 });
 
             modelBuilder.Entity("Midterm.Models.Room", b =>
@@ -203,6 +274,36 @@ namespace Midterm.Migrations
                     b.HasKey("UserID");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Midterm.Models.Customer", b =>
+                {
+                    b.HasOne("Midterm.Models.CustomerType", "CustomerType")
+                        .WithMany()
+                        .HasForeignKey("CustomerTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("CustomerType");
+                });
+
+            modelBuilder.Entity("Midterm.Models.Reservation", b =>
+                {
+                    b.HasOne("Midterm.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Midterm.Models.Room", "Room")
+                        .WithMany()
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Room");
                 });
 
             modelBuilder.Entity("Midterm.Models.Room", b =>
