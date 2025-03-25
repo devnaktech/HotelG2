@@ -5,92 +5,114 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.IsHidden)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Customer)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Room)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CheckInDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsCheckIn)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NumberOfDays)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NumberOfAdults)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NumberOfChildren)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Memo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CheckOutDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsCheckOut)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsHidden)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Customer.CustomerName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Room.RoomName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CheckInDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsCheckIn)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumberOfDays)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumberOfAdults)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumberOfChildren)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Memo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CheckOutDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsCheckOut)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ReservationId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ReservationId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ReservationId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="d-flex justify-content-between p-3">
+    <h3>Reservation</h3>
+    <a asp-action="Create" class="btn btn-lg btn-primary">Create New</a>
+</div>
+<div class="card">
+    <div class="card-body p-2 rounded-4">
+        <table class="table rounded-4">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsHidden)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Customer)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Room)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CheckInDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsCheckIn)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NumberOfDays)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NumberOfAdults)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NumberOfChildren)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Memo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CheckOutDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsCheckOut)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsHidden)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Customer.CustomerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Room.RoomName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CheckInDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsCheckIn)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumberOfDays)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumberOfAdults)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumberOfChildren)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Memo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CheckOutDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsCheckOut)
+                    </td>
+                    <td class="">
+                        <div class="dropdown rounded-4">
+                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </button>
+                            <ul class="dropdown-menu rounded-4">
+                                <li>
+                                    <a class="dropdown-item text-secondary" asp-action="Details" asp-route-id="@item.ReservationId">
+                                        <i class="fas fa-info-circle mr-2"></i>Details
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-warning" asp-action="Edit" asp-route-id="@item.ReservationId">
+                                        <i class="fas fa-pen mr-2"></i>Edit
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-danger" asp-action="Delete" asp-route-id="@item.ReservationId">
+                                        <i class="fas fa-trash mr-2"></i>Delete
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+    </div>
+</div>

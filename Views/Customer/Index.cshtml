@@ -81,10 +81,29 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Country)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CustomerId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CustomerId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CustomerId">Delete</a>
+            <td class="">
+                <div class="dropdown rounded-4">
+                    <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                    <ul class="dropdown-menu rounded-4">
+                        <li>
+                        <a class="dropdown-item text-secondary" asp-action="Details" asp-route-id="@item.CustomerId">
+                            <i class="fas fa-info-circle mr-2"></i>Details
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-warning" asp-action="Edit" asp-route-id="@item.CustomerId">
+                            <i class="fas fa-pen mr-2"></i>Edit
+                            </a>
+                        </li>
+                        <li>
+                        <a class="dropdown-item text-danger" asp-action="Delete" asp-route-id="@item.CustomerId">
+                            <i class="fas fa-trash mr-2"></i>Delete
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </td>
         </tr>
 }

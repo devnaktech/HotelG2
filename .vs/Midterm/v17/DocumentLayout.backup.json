@@ -130,12 +130,11 @@
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\_ViewImports.cshtml*",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml*",
+              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T10:20:52.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T10:20:52.985Z"
             },
             {
               "$type": "Document",
@@ -143,12 +142,11 @@
               "Title": "ReseravtionFrontDesk.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Reservation\\ReseravtionFrontDesk.cshtml",
               "RelativeDocumentMoniker": "Views\\Reservation\\ReseravtionFrontDesk.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Reservation\\ReseravtionFrontDesk.cshtml*",
-              "RelativeToolTip": "Views\\Reservation\\ReseravtionFrontDesk.cshtml*",
+              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Reservation\\ReseravtionFrontDesk.cshtml",
+              "RelativeToolTip": "Views\\Reservation\\ReseravtionFrontDesk.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:49:47.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:49:47.577Z"
             },
             {
               "$type": "Document",
@@ -160,8 +158,7 @@
               "RelativeToolTip": "Controllers\\RoomsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:40:19.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:40:19.209Z"
             },
             {
               "$type": "Document",
@@ -173,8 +170,7 @@
               "RelativeToolTip": "Controllers\\CustomerTypeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:40:10.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:40:10.495Z"
             },
             {
               "$type": "Document",
@@ -186,8 +182,7 @@
               "RelativeToolTip": "Controllers\\CustomerController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAzwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:39:30.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:39:30.719Z"
             },
             {
               "$type": "Document",
@@ -199,8 +194,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T04:34:01.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T04:34:01.672Z"
             },
             {
               "$type": "Document",
@@ -208,8 +202,8 @@
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
+              "ToolTip": "D:\\nasPj\\asp.net\\Hotel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-14T11:45:15.418Z",
@@ -225,8 +219,7 @@
               "RelativeToolTip": "Controllers\\ReservationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:40:21.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T16:40:21.881Z"
             },
             {
               "$type": "Document",
@@ -238,8 +231,7 @@
               "RelativeToolTip": "Views\\RoomType\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T15:07:15.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T15:07:15.355Z"
             },
             {
               "$type": "Document",
@@ -251,8 +243,7 @@
               "RelativeToolTip": "Controllers\\RoomTypesController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAmwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T10:44:37.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:44:37.927Z"
             },
             {
               "$type": "Document",
@@ -264,8 +255,7 @@
               "RelativeToolTip": "Views\\Room\\Create.cshtml",
               "ViewState": "AgIAALUAAAAAAAAAAIBPwLgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T10:17:27.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:17:27.721Z"
             },
             {
               "$type": "Document",
@@ -277,8 +267,7 @@
               "RelativeToolTip": "Views\\Employee\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T10:21:30.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:21:30.037Z"
             },
             {
               "$type": "Document",
@@ -290,8 +279,7 @@
               "RelativeToolTip": "Controllers\\RoomController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T15:29:43.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T15:29:43.52Z"
             },
             {
               "$type": "Document",
@@ -303,8 +291,7 @@
               "RelativeToolTip": "Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T04:11:45.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T04:11:45.088Z"
             },
             {
               "$type": "Document",
@@ -316,8 +303,7 @@
               "RelativeToolTip": "Views\\Room\\Index.cshtml",
               "ViewState": "AgIAACwAAAAAAAAAAAA0wDUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T10:17:29.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:17:29.102Z"
             },
             {
               "$type": "Document",
@@ -329,8 +315,7 @@
               "RelativeToolTip": "Models\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T04:11:53.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T04:11:53.963Z"
             },
             {
               "$type": "Document",
@@ -342,8 +327,7 @@
               "RelativeToolTip": "Views\\Room\\Edit.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAUwDYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T10:17:28.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:17:28.423Z"
             },
             {
               "$type": "Document",
@@ -355,8 +339,7 @@
               "RelativeToolTip": "Views\\RoomTypes\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T07:31:56.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T07:31:56.079Z"
             },
             {
               "$type": "Document",
@@ -368,8 +351,7 @@
               "RelativeToolTip": "Controllers\\RoomTypeController.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAzwEAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T10:45:47.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:45:47.542Z"
             },
             {
               "$type": "Document",
@@ -381,8 +363,7 @@
               "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAIBPwCMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T07:25:42.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T07:25:42.975Z"
             },
             {
               "$type": "Document",
@@ -394,8 +375,7 @@
               "RelativeToolTip": "Views\\Room\\Delete.cshtml",
               "ViewState": "AgIAAIkAAAAAAAAAAIBPwIwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T10:39:56.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T10:39:56.636Z"
             },
             {
               "$type": "Document",
@@ -407,8 +387,7 @@
               "RelativeToolTip": "Views\\Shared\\_Header.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAIBPwDEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T12:11:00.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:11:00.774Z"
             },
             {
               "$type": "Document",
@@ -420,8 +399,7 @@
               "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T12:16:30.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:16:30.368Z"
             },
             {
               "$type": "Document",
@@ -433,8 +411,7 @@
               "RelativeToolTip": "Views\\RoomTypes\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T07:31:54.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T07:31:54.717Z"
             },
             {
               "$type": "Document",

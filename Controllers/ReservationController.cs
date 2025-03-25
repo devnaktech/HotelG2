@@ -49,7 +49,8 @@ namespace Midterm.Controllers
         // GET: Reservation/Create
         public IActionResult Create()
         {
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId");
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerName");
+            // ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId");
             ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomName");
             return View();
         }
@@ -67,7 +68,7 @@ namespace Midterm.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId", reservation.CustomerId);
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerName", reservation.CustomerId);
             ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomName", reservation.RoomId);
             return View(reservation);
         }
@@ -85,7 +86,7 @@ namespace Midterm.Controllers
             {
                 return NotFound();
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId", reservation.CustomerId);
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerName", reservation.CustomerId);
             ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomName", reservation.RoomId);
             return View(reservation);
         }
@@ -122,7 +123,7 @@ namespace Midterm.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId", reservation.CustomerId);
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerName", reservation.CustomerId);
             ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomName", reservation.RoomId);
             return View(reservation);
         }
